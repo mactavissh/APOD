@@ -5,10 +5,10 @@
 
   The APOD shell script downloads the Astronomy Picture of the Day and sets it as your Desktop background.  
 
-  ### Environment
+### Environment
   This was written for and tested on Ubuntu.
 
-  ### Uses
+### Uses
   This shell script is meant to be used in the terminal or run as a cronjob.
 
   To run this command immediately, run it in your terminal:
