@@ -1,7 +1,6 @@
 #!/bin/bash
 curl -s http://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss > apod.txt
 line=$(grep "enclosure url=" apod.txt | head -1)
-#<enclosure url="http://www.nasa.gov/sites/default/files/thumbnails/image/pia06654.jpg" length="97237" type="image/jpeg" />
 echo $line
 
 if [ ! -z "$line" ] 
